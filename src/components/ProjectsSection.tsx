@@ -139,7 +139,6 @@ export const ProjectsSection = () => {
                       size="sm" 
                       className="flex-1 group"
                       onClick={() => window.open(project.liveDemo, '_blank')}
-                      disabled={project.liveDemo === "#"}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
@@ -149,7 +148,6 @@ export const ProjectsSection = () => {
                       size="sm" 
                       className="glass"
                       onClick={() => window.open(project.github, '_blank')}
-                      disabled={project.github === "#"}
                     >
                       <Github className="w-4 h-4" />
                     </Button>
