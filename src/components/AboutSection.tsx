@@ -4,7 +4,7 @@ import { Code2, Database, Zap, Users } from "lucide-react";
 
 export const AboutSection = () => {
   const skills = [
-    { category: "Backend", items: ["Spring Boot", "Java", "PostgreSQL", "Redis", "REST APIs"] },
+    { category: "Backend", items: ["Spring Boot", "Laravel", "Java", "PostgreSQL", "Redis", "REST APIs"] },
     { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vite"] },
     { category: "DevOps", items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Monitoring"] },
     { category: "Tools", items: ["Git", "IntelliJ", "VS Code", "Figma", "Postman"] }

@@ -10,9 +10,7 @@ export const CertificationsSection = () => {
       year: "2024",
       icon: Shield,
       color: "from-orange-500 to-yellow-500",
-      bgColor: "from-orange-500/10 to-yellow-500/10",
-      image: "/badges/aws-cert.png", // Optional: path to your badge image
-      verifyUrl: "https://aws.amazon.com/verification" // Optional: verification link
+      bgColor: "from-orange-500/10 to-yellow-500/10"
     },
     {
       title: "Google Cloud Professional",
