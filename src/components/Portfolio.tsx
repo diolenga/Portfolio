@@ -22,7 +22,7 @@ export const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Full-Stack Engineer. Built with React & Spring Boot.
+              © {new Date().getFullYear()} Dionis Lenga. Built with React & Spring Boot.
             </p>
             <p className="text-sm text-muted-foreground">
               Crafted with ❤️ and lots of ☕

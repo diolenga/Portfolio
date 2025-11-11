@@ -1,3 +1,13 @@
+# robots.txt for diolenga.tech
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://diolenga.tech/sitemap.xml
+
+# Popular search engines
 User-agent: Googlebot
 Allow: /
 
@@ -8,7 +18,4 @@ User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
 Allow: /
