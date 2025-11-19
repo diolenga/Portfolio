@@ -17,7 +17,8 @@ export const HeroSection = () => {
     "DATABASE ADMIN",
     "FULL-STACK ENGINEER",
     "SYSTEM ARCHITECT",
-    "GRAPHICS DESIGNER"
+    "GRAPHICS DESIGNER",
+    "SOCIAL MEDIA MANAGER"
   ];
 
   // Typewriter effect for name
