@@ -124,7 +124,7 @@ export const ContactSection = () => {
                     variant="ghost" 
                     className="w-full justify-start glass" 
                     size="sm"
-                    onClick={() => window.open('https://github.com/Dior7978', '_blank')}
+                    onClick={() => window.open('https://github.com/diolenga', '_blank')}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     GitHub
