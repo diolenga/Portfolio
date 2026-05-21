@@ -65,6 +65,18 @@ const projects = [
     screenshot: "/pictures/projects/darasa360.jpg",
   },
   {
+    title: "Darasa 360 — Olamtec",
+    description:
+      "The Olamtec-hosted edition of the Darasa 360 e-learning platform — delivering interactive lessons, course management, and learner analytics powered by Olamtec's infrastructure.",
+    tech: ["React", "Node.js", "PostgreSQL", "Olamtec Cloud"],
+    status: "Live",
+    type: "E-Learning",
+    gradient: "from-indigo-500/30 to-blue-600/30",
+    glowColor: "rgba(99,102,241,0.35)",
+    url: "https://www.darasa360.olamtec.co.tz",
+    screenshot: "/pictures/projects/darasa360-olamtec.jpg",
+  },
+  {
     title: "Tod Roster",
     description:
       "A smart workforce roster and scheduling platform built under Olamtec — streamlining shift management, staff allocation, and attendance tracking for businesses in East Africa.",
