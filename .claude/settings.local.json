@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080)",
+      "Bash(npx playwright *)",
+      "Bash(node -e \"console.log\\('node ok'\\)\")",
+      "Bash(node scripts/capture-screenshots.js)",
+      "Bash(node scripts/capture-screenshots.cjs)",
+      "Bash(timeout 120 tail -f \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Batman-Batman-portfolio\\\\4de2cee4-f0ec-4d36-9728-57918997b818\\\\tasks\\\\bunjdajby.output\")",
+      "Bash(rm -rf \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\ms-playwright\\\\__dirlock\" && echo \"lock removed\")",
+      "Bash(timeout 120 tail -f \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Batman-Batman-portfolio\\\\4de2cee4-f0ec-4d36-9728-57918997b818\\\\tasks\\\\bd8wrq022.output\")",
+      "Bash(timeout 120 tail -f \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Batman-Batman-portfolio\\\\4de2cee4-f0ec-4d36-9728-57818997b818\\\\tasks\\\\bd8wrq022.output\")",
+      "Bash(timeout 120 tail -n +1 -f \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Batman-Batman-portfolio\\\\4de2cee4-f0ec-4d36-9728-57918997b818\\\\tasks\\\\bd8wrq022.output\")",
+      "Bash(ls \"C:\\\\Users\\\\DIOR\\\\AppData\\\\Local\\\\ms-playwright\" 2>/dev/null && echo \"done\")",
+      "Read(//c/Users/DIOR/AppData/Local/ms-playwright/**)",
+      "Bash(node -e ' *)",
+      "Bash(ls \"d:\\\\Batman\\\\Batman\\\\portfolio\\\\public\\\\pictures\\\\projects\\\\\" && curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/pictures/projects/safariwrap.jpg)",
+      "Read(//d/Batman/Batman/portfolio/public/pictures/projects\" && curl -s -o /dev/null -w %{http_code} http:/localhost:8080/pictures/projects/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8080/pictures/projects/safariwrap.jpg\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8080/llms.txt\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8080/robots.txt\")"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\Users\\DIOR\\AppData\\Local\\ms-playwright\\__dirlock"
+    ]
+  }
+}

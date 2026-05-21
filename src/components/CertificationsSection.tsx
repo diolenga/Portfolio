@@ -104,27 +104,23 @@ export const CertificationsSection = () => {
                     animationDelay: `${index * 0.1}s`
                   }}
                 >
-                  <div className={`h-32 bg-gradient-to-br ${cert.bgColor} relative overflow-hidden`}>
-                    <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/5" />
-                    
-                    {/* Badge Image or Icon */}
+                  <div className={`h-40 bg-gradient-to-br ${cert.bgColor} relative overflow-hidden flex items-center justify-center`}>
+                    <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/10" />
+
+                    {/* Badge Image fills the header */}
                     {cert.image ? (
-                      <div className="absolute top-4 left-4">
-                        <img 
-                          src={cert.image} 
-                          alt={cert.title}
-                          className="w-12 h-12 rounded-lg object-cover shadow-lg"
-                        />
-                      </div>
+                      <img
+                        src={cert.image}
+                        alt={cert.title}
+                        className="relative z-10 h-28 w-28 object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-300"
+                      />
                     ) : (
-                      <div className="absolute top-4 left-4">
-                        <div className={`p-3 rounded-full bg-gradient-to-r ${cert.color} shadow-lg`}>
-                          <IconComponent className="w-6 h-6 text-white" />
-                        </div>
+                      <div className={`relative z-10 p-5 rounded-full bg-gradient-to-r ${cert.color} shadow-xl group-hover:scale-110 transition-transform duration-300`}>
+                        <IconComponent className="w-10 h-10 text-white" />
                       </div>
                     )}
-                    
-                    <div className="absolute bottom-4 right-4">
+
+                    <div className="absolute bottom-3 right-3 z-10">
                       <Badge variant="secondary" className="glass text-xs">
                         {cert.year}
                       </Badge>
