@@ -64,6 +64,18 @@ const projects = [
     url: "https://www.darasa360.co.tz",
     screenshot: "/pictures/projects/darasa360.jpg",
   },
+  {
+    title: "Tod Roster",
+    description:
+      "A smart workforce roster and scheduling platform built under Olamtec — streamlining shift management, staff allocation, and attendance tracking for businesses in East Africa.",
+    tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
+    status: "Live",
+    type: "Workforce Management",
+    gradient: "from-rose-500/30 to-pink-600/30",
+    glowColor: "rgba(244,63,94,0.35)",
+    url: "https://todroster.olamtec.co.tz",
+    screenshot: "/pictures/projects/todroster.jpg",
+  },
 ];
 
 interface TiltState {
